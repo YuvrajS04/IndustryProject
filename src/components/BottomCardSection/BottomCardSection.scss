@@ -1,0 +1,35 @@
+@use "../../styles/partials/variables.scss" as *;
+
+.bottom-card {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    list-style-type: none;
+    width: 75%;
+  }
+
+  &__list-item {
+    &::before {
+      content: "\2022";
+      color: $primary100;
+      font-size: 1.5rem;
+      padding-right: 1rem;
+    }
+  }
+
+  &__heading {
+    color: $primary100;
+  }
+
+  &__button {
+    padding: 0.5rem 2rem;
+    border: 1px solid $primary100;
+    border-radius: 1.5rem;
+
+    &:hover {
+      background-color: $primary200;
+      color: #fff;
+    }
+  }
+}
