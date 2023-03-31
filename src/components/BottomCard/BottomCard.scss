@@ -1,0 +1,35 @@
+@use "../../styles/partials/variables.scss" as *;
+
+.bottom-card {
+  background-color: $primary50;
+  padding: 2rem 0;
+  width: 80%;
+  margin: 3rem auto;
+
+  &__sections {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 2rem;
+  }
+
+  &__section {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: -3px 3px 5px $primary100;
+    width: 30%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &:first-of-type {
+    }
+
+    &:last-of-type {
+      border-right: 0;
+    }
+  }
+}
