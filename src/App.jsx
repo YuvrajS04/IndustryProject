@@ -1,19 +1,18 @@
-import './App.scss';
-import {BrowserRouter, Routes, Route } from "react-router-dom"
-import HomePage from './pages/HomePage';
-// import Header from './components/Header/Header';
-// import TopCards from './components/TopCards/TopCards';
+
+
+import "./App.scss";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <BrowserRouter >
-    {/* <Header />
-    <TopCards /> */}
-    <Routes >
-    <Route path="/" element={<HomePage />}></Route> 
-    </Routes>
+    <BrowserRouter>
+      {/* <Header /> */}
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+      </Routes>
+    </BrowserRouter>
 
-   </BrowserRouter>
   );
 }
 
