@@ -1,20 +1,26 @@
 @use "../../styles/partials/variables" as *;
 
-.top-cards{
-&__heading {
-  margin-left: 7.188rem;
-}
+.top-cards {
+  height: fit-content;
+  margin-top: 4rem;
+  &__heading {
+    margin-left: 10rem;
+    font-family: "Cera Pro", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 
-&__wrapper {
+  &__wrapper {
     display: flex;
+    margin-left: 4rem;
     flex-direction: row;
-}
+  }
 }
 
-.feedback-icon{
-    position: absolute;
-    right: 1%;
-    top: 1%;
+.feedback-icon {
+  position: absolute;
+  right: 1%;
+  top: 1%;
 }
 .card {
   width: 22.625rem;
@@ -29,21 +35,21 @@
     height: 1rem;
     width: 0.95rem;
     padding-top: 2.9rem;
-    fill: #3B777D;
+    fill: #3b777d;
   }
   &__subheading {
     font-size: 3.25rem;
     margin-top: 0.625rem;
     margin-bottom: 0.313rem;
-    color: #3B777D;
+    color: #3b777d;
   }
 
-  &__subheading-wrapper{
+  &__subheading-wrapper {
     display: flex;
     flex-direction: row;
     gap: 1rem;
   }
-  &__link{
+  &__link {
     max-width: 18.5rem;
     min-width: 18.5rem;
     margin: 0;
@@ -60,9 +66,8 @@
   }
 }
 .white {
-    fill: #EDF9FB;
+  fill: #edf9fb;
 }
-
 
 .background-fill {
   width: 1.125rem;
@@ -91,22 +96,22 @@
 
 .card:hover .card__text,
 .card.hovered .card__text {
-    color: $primary50;
+  color: $primary50;
 }
 
 .card:hover .card__subheading,
 .card.hovered .card__subheading {
-    color: $primary50;
+  color: $primary50;
 }
 
 .card:hover .card__link-text,
 .card.hovered .card__link-text {
-    color: $primary50;
+  color: $primary50;
 }
 
 .card:hover .card__link,
 .card.hovered .card__link {
-    color: $primary50;
+  color: $primary50;
 }
 
 .card-container {
@@ -129,15 +134,13 @@
   padding: 0;
   width: 18.5rem;
   height: 3.063rem;
-  color: #2F384B;
+  color: #2f384b;
   letter-spacing: 2%;
 }
 
-
-
 a {
   text-decoration: underline;
-  color: #3B777D;
+  color: #3b777d;
 }
 
 a:hover {

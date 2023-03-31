@@ -83,16 +83,20 @@ export default function HomePage() {
         <Header />
         <TopCards />
       </div>
-      <ul className="buttons">
-        <Button subject="Talents" clickHandler={setTalentContent} />
-        <Button subject="Strategy" clickHandler={setStrategyContent} />
-        <Button subject="Revenue" clickHandler={setRevenueContent} />
-      </ul>
-      <BottomCard
-        leftContent={leftContent}
-        midContent={midContent}
-        rightContent={rightContent}
-      />
+      <div>
+        <h3 className="bottom-section__heading">Key Solutions</h3>
+        <ul className="buttons">
+          <Button subject="Talents" clickHandler={setTalentContent} />
+          <Button subject="Strategy" clickHandler={setStrategyContent} />
+          <Button subject="Revenue" clickHandler={setRevenueContent} />
+        </ul>
+
+        <BottomCard
+          leftContent={leftContent}
+          midContent={midContent}
+          rightContent={rightContent}
+        />
+      </div>
     </>
   );
 }

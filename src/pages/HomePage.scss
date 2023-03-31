@@ -1,10 +1,19 @@
+.bottom-section__heading {
+  padding-left: 10.5rem;
+  margin: 6rem 0 2rem;
+  font-size: 2rem;
+  font-family: "Cera Pro", sans-serif;
+}
 .display {
   display: flex;
+  flex-direction: column;
 }
 
 .buttons {
   display: flex;
-  flex-direction: column;
+  margin-left: 1rem;
+  list-style-type: none;
+  // flex-direction: column;
   // align-items: center;
 
   &__heading {

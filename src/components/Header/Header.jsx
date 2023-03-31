@@ -34,12 +34,15 @@ function Header() {
           <img className="nav__icon" src={dots} alt="Square dot logo" />
           <img className="nav__icon" src={compass} alt="Compass logo" />
           <img className="nav__icon" src={arrow} alt="Arrow Square logo" />
-        </div>
-        <div className="nav-bottom">
-          <img className="nav__icon" src={shooting} alt="Star logo" />
+          <img
+            className="nav__icon nav__icon--bottom"
+            src={shooting}
+            alt="Star logo"
+          />
           <img className="nav__icon" src={question} alt="Question logo" />
           <img className="nav__icon" src={round} alt="Round logo" />
         </div>
+        <div className="nav-bottom"></div>
       </nav>
     </header>
   );

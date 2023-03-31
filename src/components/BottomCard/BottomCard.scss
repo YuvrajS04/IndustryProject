@@ -4,14 +4,14 @@
   background-color: $primary50;
   padding: 2rem 0;
   // width: 80%;
-  margin: 3rem auto;
-
+  margin-top: 3rem;
   &__sections {
     display: flex;
 
     justify-content: space-around;
 
-    margin: 1rem;
+    margin: 2rem;
+    // height: 60%;
   }
 
   &__section {
