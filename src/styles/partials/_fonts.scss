@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("Graphik-Regular.woff2") format("woff2"),
+    url("Graphik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("CeraPro-Bold.woff2") format("woff2"),
+    url("CeraPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
