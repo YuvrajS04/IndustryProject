@@ -1,0 +1,145 @@
+@use "../../styles/partials/variables" as *;
+
+.top-cards{
+&__heading {
+  margin-left: 7.188rem;
+}
+
+&__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+}
+
+.feedback-icon{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+.card {
+  width: 22.625rem;
+  height: 12.313rem;
+  margin-left: 6.063rem;
+  border-radius: 0.25rem;
+  background-color: $primary50;
+  overflow: hidden;
+  display: flex;
+
+  &__icon {
+    height: 1rem;
+    width: 0.95rem;
+    padding-top: 2.9rem;
+    fill: #3B777D;
+  }
+  &__subheading {
+    font-size: 3.25rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.313rem;
+    color: #3B777D;
+  }
+
+  &__subheading-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  &__link{
+    max-width: 18.5rem;
+    min-width: 18.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  &__link-text {
+    font-size: 1.125rem;
+    margin: 0rem;
+    padding-bottom: 0.625rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.75rem;
+    letter-spacing: 2%;
+  }
+}
+.white {
+    fill: #EDF9FB;
+}
+
+
+.background-fill {
+  width: 1.125rem;
+  height: 100%;
+  background-color: $primary200;
+  opacity: 1;
+  display: flex;
+}
+
+.card:hover .background-fill,
+.card.hovered .background-fill {
+  background-color: $primary200;
+  opacity: 1;
+}
+
+.card:hover,
+.card.hovered {
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.15);
+  background-color: $primary200;
+}
+
+.card:hover .card__title,
+.card.hovered .card__title {
+  color: $primary50;
+}
+
+.card:hover .card__text,
+.card.hovered .card__text {
+    color: $primary50;
+}
+
+.card:hover .card__subheading,
+.card.hovered .card__subheading {
+    color: $primary50;
+}
+
+.card:hover .card__link-text,
+.card.hovered .card__link-text {
+    color: $primary50;
+}
+
+.card:hover .card__link,
+.card.hovered .card__link {
+    color: $primary50;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.875rem;
+}
+
+.card__title {
+  color: $text500;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 2%;
+}
+
+.card__text {
+  font-size: 1.125rem;
+  margin: 0rem;
+  padding: 0;
+  width: 18.5rem;
+  height: 3.063rem;
+  color: #2F384B;
+  letter-spacing: 2%;
+}
+
+
+
+a {
+  text-decoration: underline;
+  color: #3B777D;
+}
+
+a:hover {
+  text-decoration: underline;
+}
