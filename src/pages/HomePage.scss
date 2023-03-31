@@ -1,5 +1,8 @@
-.bottom-container {
-  // width: 80%;
+.display {
+  display: flex;
+}
+
+.buttons {
   display: flex;
   flex-direction: column;
   // align-items: center;
