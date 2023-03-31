@@ -1,3 +1,8 @@
+
+.display {
+    display: flex;
+}
+
 .buttons {
   display: flex;
   justify-content: flex-start;
@@ -5,3 +10,4 @@
   padding-left: 4rem;
   list-style: none;
 }
+
