@@ -9,10 +9,11 @@
     list-style-position: inside;
     padding-left: 2rem;
     text-indent: -1.5rem;
-    width: 75%;
+    width: 80%;
   }
 
   &__list-item {
+    line-height: 1.5rem;
     &::before {
       content: "\2022";
       color: $primary100;
@@ -27,8 +28,10 @@
 
   &__button {
     padding: 0.5rem 2rem;
+    margin-top: 2rem;
     border: 1px solid $primary100;
     border-radius: 1.5rem;
+    color: $primary100;
 
     &:hover {
       background-color: $primary200;

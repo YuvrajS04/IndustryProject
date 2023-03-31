@@ -4,17 +4,22 @@
   padding: 1rem 2rem;
   margin: 0 1rem;
   border: 1px solid transparent;
+  font-size: 1.5rem;
+  font-family: "Cera Pro", sans-serif;
 
+  box-shadow: 4px 4px 2px $text500;
   border-radius: 4px;
   color: $text500;
 
   &--active {
     background-color: $primary100;
     color: #fff;
+    box-sizing: 4px 4px 2px #fff;
   }
 
   &:hover {
     background-color: $text500;
     color: #fff;
+    // box-shadow: none;
   }
 }

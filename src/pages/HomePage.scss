@@ -1,7 +1,24 @@
-.buttons {
+.bottom-container {
+  // width: 80%;
   display: flex;
-  justify-content: flex-start;
-  margin-top: 2rem;
-  padding-left: 4rem;
-  list-style: none;
+  flex-direction: column;
+  // align-items: center;
+
+  &__heading {
+    padding-left: 9.5rem;
+    font-size: 2rem;
+    font-family: "Cera Pro";
+  }
+}
+
+.buttons {
+  padding-left: 8.5rem;
+  &__list {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+
+    width: 80%;
+    list-style: none;
+  }
 }

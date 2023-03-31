@@ -76,17 +76,20 @@ export default function HomePage() {
   }
 
   return (
-    <>
-      <ul className="buttons">
-        <Button subject="Talents" clickHandler={setTalentContent} />
-        <Button subject="Strategy" clickHandler={setStrategyContent} />
-        <Button subject="Revenue" clickHandler={setRevenueContent} />
-      </ul>
+    <div className="bottom-container">
+      <h2 className="bottom-container__heading">Key Solutions</h2>
+      <section className="buttons">
+        <ul className="buttons__list">
+          <Button subject="Talents" clickHandler={setTalentContent} />
+          <Button subject="Strategy" clickHandler={setStrategyContent} />
+          <Button subject="Revenue" clickHandler={setRevenueContent} />
+        </ul>
+      </section>
       <BottomCard
         leftContent={leftContent}
         midContent={midContent}
         rightContent={rightContent}
       />
-    </>
+    </div>
   );
 }
