@@ -9,10 +9,12 @@
     list-style-position: inside;
     padding-left: 2rem;
     text-indent: -1.5rem;
-    width: 75%;
+    width: 80%;
   }
 
   &__list-item {
+    line-height: 1.5rem;
+    font-size: 1.125rem;
     &::before {
       content: "\2022";
       color: $primary100;
@@ -23,12 +25,20 @@
 
   &__heading {
     color: $primary100;
+    font-size: 1.5rem;
+    font-family: "Cera Pro", sans-serif;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0.5rem;
   }
 
   &__button {
     padding: 0.5rem 2rem;
+    margin-top: 2rem;
     border: 1px solid $primary100;
     border-radius: 1.5rem;
+    color: $primary100;
+    position: absolute;
+    top: 28.5rem;
 
     &:hover {
       background-color: $primary200;

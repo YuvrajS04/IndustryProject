@@ -1,6 +1,5 @@
-
-import Header from "../components/Header/Header"
-import TopCards from "../components/TopCards/TopCards"
+import Header from "../components/Header/Header";
+import TopCards from "../components/TopCards/TopCards";
 import Button from "../components/Button/Button";
 import BottomCard from "../components/BottomCard/BottomCard";
 import { useState } from "react";
@@ -79,10 +78,11 @@ export default function HomePage() {
   }
 
   return (
-    <> <div className="display">
-            <Header />
-            <TopCards />
-        </div>
+    <>
+      <div className="display">
+        <Header />
+        <TopCards />
+      </div>
       <ul className="buttons">
         <Button subject="Talents" clickHandler={setTalentContent} />
         <Button subject="Strategy" clickHandler={setStrategyContent} />
@@ -96,4 +96,3 @@ export default function HomePage() {
     </>
   );
 }
-

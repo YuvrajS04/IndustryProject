@@ -3,33 +3,40 @@
 .bottom-card {
   background-color: $primary50;
   padding: 2rem 0;
-  width: 80%;
+  // width: 80%;
   margin: 3rem auto;
 
   &__sections {
     display: flex;
 
-    justify-content: space-between;
+    justify-content: space-around;
 
-    margin: 2rem;
+    margin: 1rem;
   }
 
   &__section {
     background-color: #fff;
-    border-radius: 0.25rem;
-    box-shadow: -3px 3px 5px $primary100;
-    width: 30%;
+    // margin: 2rem 8rem;
+
+    border-radius: 0.5rem;
+    width: 25%;
     height: 20rem;
     display: flex;
-    justify-content: center;
+    padding-top: 2rem;
     flex-direction: column;
     align-items: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: -3px 3px 5px $primary100;
+    }
 
     &:first-of-type {
+      margin-left: 7rem;
     }
 
     &:last-of-type {
-      border-right: 0;
+      margin-right: 7rem;
     }
   }
 }
